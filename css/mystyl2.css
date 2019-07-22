@@ -1,0 +1,98 @@
+
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+   font-family: 'Lato', sans-serif;
+   font-size: 100%;
+   background:#fff; 
+   margin:0;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}	
+
+/*h4{
+	font-family: 'Lato', sans-serif;
+   font-size: 100%;
+   background:#fff; 
+   margin:0;
+   }*/
+
+.row-content{
+	
+	border: 2px;
+	height: 20px;
+	background: #800000;
+}
+a: hover {
+	text-decoration: none;
+	outline: none;
+}
+a:focus{
+	outline: none;
+}
+.rightup
+            {
+            padding:1em 0em;
+            margin-bottom:1em;
+            
+                background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+            
+            }
+
+    .rightup h3
+	{
+	text-align:center;
+	color:#ff0000 ; 
+	
+	font-weight:600;
+
+	}
+	
+	/*.rightup p
+	{
+	text-align:center;
+	color:#333 #f9aa75; 
+	font-size:0.90em;
+	font-weight:400;
+
+	}*/
+		
+	/*	.rightup p span
+	{
+	
+	color:; font-size:0.90em;
+	font-weight:600;
+
+	}*/
+.img{
+	margin: 1px;
+	
+}
+.option{
+	text-align: left;
+	float: left;
+}
+
+datalist.option{
+	text-align: left;
+	/*float: left;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: left;
+    align-content: left;
+*/
+}
